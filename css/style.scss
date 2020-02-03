@@ -1,0 +1,57 @@
+// Font imports
+@font-face {
+    src: url("/assets/fonts/Product\ Sans\ Regular.ttf");
+    font-family: "Product Sans Regular";
+}
+
+* {
+    font-family: "Product Sans Regular";
+}
+
+
+
+/*
+    Tae cos ang weird sobrang formal HAHHAHAHAAHAHA
+    may wherein pa kala ko research paper css lang pala
+*/
+
+
+// Ask
+
+#title {
+    color : #ED4264;
+}
+
+.container {
+    // The Container where the teacher cards are located
+    // tinanggal ko yung height nung body, yun yung nag papa weird
+    //may nilagay ako height something dito kaya naging weird kanina
+    #list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 10px;
+        width : 100%;
+        margin-top: 10px;
+        margin-bottom: 40px;
+
+        .card {
+            width: 3fr;
+            height: 1fr;
+        }
+    }
+
+    // Different kinds of prompt
+    #success {
+        position: sticky;
+        top : 180px;
+        z-index: 9;
+    }
+
+    #warning {
+        position: sticky;
+        top : 230px;
+        z-index: 9;
+    }
+
+}
