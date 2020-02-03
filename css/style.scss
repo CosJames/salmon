@@ -7,21 +7,11 @@
 * {
     font-family: "Product Sans Regular";
 }
-
-
-
-/*
-    Tae cos ang weird sobrang formal HAHHAHAHAAHAHA
-    may wherein pa kala ko research paper css lang pala
-*/
-
-
 // Ask
 
 #title {
     color : #ED4264;
 }
-
 .container {
     // The Container where the teacher cards are located
     // tinanggal ko yung height nung body, yun yung nag papa weird
@@ -42,15 +32,9 @@
     }
 
     // Different kinds of prompt
-    #success {
+    #alerts-container {
         position: sticky;
         top : 180px;
-        z-index: 9;
-    }
-
-    #warning {
-        position: sticky;
-        top : 230px;
         z-index: 9;
     }
 
