@@ -1,0 +1,104 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <!--Scripts-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+    
+    <title>Salmon</title>
+</head>
+<body>
+    <!--The container wherein he title and searchbox is located-->
+    <nav class="container-fluid d-flex flex-column text-center bg-light pt-4 sticky-top">
+        <h1 class="display-3 text-center" id="title" href="#">Salmon</h1>
+        <form class="form-inline mx-auto">
+            <input id="searchbox" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        </form>
+    </nav>
+    <!--Content Container-->
+    <div class="container">
+        <!--Alert for telling the user the request has been sent-->
+        <!-- Cos joke lang tama aka maganda kung ilagay sa container-->
+        <div class="container position-fixed" id="alerts-container">
+            <div class="alert alert-success alert-dismissible fade show">
+              <button type="button" class="close" data-dismiss="alert">&times;</button>
+              <strong>Success!</strong> This alert box could indicate a successful or positive action.
+            </div>
+            <div class="alert alert-warning alert-dismissible fade show">
+              <button type="button" class="close" data-dismiss="alert">&times;</button>
+              <strong>Warning!</strong> This alert box could indicate a warning that might need attention.
+            </div>
+            <div class="alert alert-danger alert-dismissible fade show">
+              <button type="button" class="close" data-dismiss="alert">&times;</button>
+              <strong>Danger!</strong> This alert box could indicate a dangerous or potentially negative action.
+            </div>
+          </div>
+        <!-- The Container wherein the teacher is listed-->
+        <div class="container d-grid position-relative" id="list">
+            <!-- Test ko lang-->
+            <div class="card my-3"> 
+                <img class="card-img-top" src="assets/images/test/81298920_1333975186773663_5755750261087797248_o.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title mb-1">Abunda, Marie Joy</h5>
+                    <p class="card-text">Available</p>
+                </div>
+            </div>
+            <div class="card my-3"> 
+                <img class="card-img-top" src="assets/images/test/79721921_2484633111808858_3653689207957749760_o.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title mb-1">Panlubasan, Pinky Rota</h5>
+                    <p class="card-text">Available</p>
+                </div>
+            </div>
+
+            <div class="card my-3"> 
+                <img class="card-img-top" src="assets/images/test/79721921_2484633111808858_3653689207957749760_o.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title mb-1">Panlubasan, Pinky Rota</h5>
+                    <p class="card-text">Available</p>
+                </div>
+            </div>
+
+            <div class="card my-3"> 
+                <img class="card-img-top" src="assets/images/test/79721921_2484633111808858_3653689207957749760_o.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title mb-1">Panlubasan, Pinky Rota</h5>
+                    <p class="card-text">Available</p>
+                </div>
+            </div>
+
+            <div class="card my-3"> 
+                <img class="card-img-top" src="assets/images/test/79721921_2484633111808858_3653689207957749760_o.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title mb-1">Panlubasan, Pinky Rota</h5>
+                    <p class="card-text">Available</p>
+                </div>
+            </div>
+
+            <div class="card my-3"> 
+                <img class="card-img-top" src="assets/images/test/79721921_2484633111808858_3653689207957749760_o.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title mb-1">Panlubasan, Pinky Rota</h5>
+                    <p class="card-text">Available</p>
+                </div>
+            </div>
+
+            <!-- Ano sa tingin mo cos?
+                lagyan mo ng hover 
+                check mo bootstrap kung meron
+                joke wala pala
+            -->
+
+            
+        </div>
+        
+    </div>
+</body> 
+</html>
