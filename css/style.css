@@ -8,12 +8,35 @@
   font-family: "Roboto Light";
 }
 
+@font-face {
+  src: url(../assets/fonts/FontAwesomeSolid.otf);
+  font-family: "FontAwesome";
+}
+
 #title, .teacher-name {
   font-family: "Product Sans Regular";
+  cursor: default;
+}
+
+#title::-moz-selection, .teacher-name::-moz-selection {
+  background: none;
+}
+
+#title::selection, .teacher-name::selection {
+  background: none;
 }
 
 .card-text {
   font-family: "Roboto Light";
+  cursor: default;
+}
+
+.card-text::-moz-selection {
+  background: none;
+}
+
+.card-text::selection {
+  background: none;
 }
 
 #title {
@@ -30,6 +53,26 @@
 .card:hover {
   -webkit-transform: scale(1.025);
           transform: scale(1.025);
+}
+
+.status-indicator {
+  font-family: "FontAwesome";
+}
+
+.status-indicator-unavailable {
+  color: gray;
+}
+
+.status-indicator-available {
+  color: #7aeb7a;
+}
+
+.status-indicator-busy {
+  color: #f15555;
+}
+
+.status-indicator-onConsultation {
+  color: #6161df;
 }
 
 .container #list {
@@ -50,5 +93,9 @@
   position: sticky;
   top: 180px;
   z-index: 9;
+}
+
+#studentNumberInput::-webkit-inner-spin-button {
+  -webkit-appearance: none;
 }
 /*# sourceMappingURL=style.css.map */

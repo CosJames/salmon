@@ -1,9 +1,9 @@
 <?php
 
-class Members extends Dbh {
+class Students extends Dbh {
 
-  protected function getAllMembers() {
-    $stmt = "SELECT * FROM members ORDER BY Name ASC";
+  protected function getAllStudents() {
+    $stmt = "SELECT * FROM studentsdb ORDER BY Name ASC";
     $result = $this->connect()->query($stmt);
     $numRows = $result->rowCount();
 
