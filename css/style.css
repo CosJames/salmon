@@ -98,4 +98,14 @@
 #studentNumberInput::-webkit-inner-spin-button {
   -webkit-appearance: none;
 }
+
+#loginpage-bg {
+  background: #f5f5f5;
+  font-family: "Product Sans Regular";
+}
+
+#btn-login {
+  background: #ED4264;
+  color: #f5f5f5;
+}
 /*# sourceMappingURL=style.css.map */

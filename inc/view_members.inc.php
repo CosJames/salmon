@@ -20,7 +20,8 @@ class ViewMembers extends Members {
         break;
         case 1:
           echo '<div class="card my-3 member-card" data-toggle="modal" data-target="#modal"
-          data-name="'.$row['Name'].'" data-card="'.$row['CardNo'].'" data-status="'.$row['Status'].'"> 
+          data-name="'.$row['Name'].'" data-card="'.$row['CardNo'].'" data-status="'.$row['Status'].'"
+          data-paged="'.$row['Paged'].'"> 
           <img class="card-img-top" src="'.$row['Photo'].'" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title mb-1 teacher-name">'.$row['Name'].'</h5>
@@ -31,7 +32,8 @@ class ViewMembers extends Members {
         
         case 2:
           echo '<div class="card my-3 member-card" data-toggle="modal" data-target="#modal"
-          data-name="'.$row['Name'].'" data-card="'.$row['CardNo'].'" data-status="'.$row['Status'].'"> 
+          data-name="'.$row['Name'].'" data-card="'.$row['CardNo'].'" data-status="'.$row['Status'].'"
+          data-paged="'.$row['Paged'].'"> 
           <img class="card-img-top" src="'.$row['Photo'].'" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title mb-1 teacher-name">'.$row['Name'].'</h5>
@@ -42,7 +44,8 @@ class ViewMembers extends Members {
         
         case 3:
           echo '<div class="card my-3 member-card" data-toggle="modal" data-target="#modal"
-            data-name="'.$row['Name'].'" data-card="'.$row['CardNo'].'" data-status="'.$row['Status'].'"> 
+            data-name="'.$row['Name'].'" data-card="'.$row['CardNo'].'" data-status="'.$row['Status'].'"
+            data-paged="'.$row['Paged'].'"> 
             <img class="card-img-top" src="'.$row['Photo'].'" alt="Card image cap">
               <div class="card-body">
                   <h5 class="card-title mb-1 teacher-name">'.$row['Name'].'</h5>

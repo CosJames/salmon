@@ -2,8 +2,8 @@
 
 class Students extends Dbh {
 
-  protected function getAllStudents() {
-    $stmt = "SELECT * FROM studentsdb ORDER BY Name ASC";
+  protected function selectStudent($studentId) {
+    $stmt = "SELECT * FROM studentsdb WHERE REGION = ".$studentId.";";
     $result = $this->connect()->query($stmt);
     $numRows = $result->rowCount();
 

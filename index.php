@@ -40,6 +40,8 @@
         <div class="container d-grid position-relative" id="list">
             <!-- Test ko lang-->
             <?php
+              #$loginHelper = new LoginHelper();
+              #$loginHelper->verify('stisalmonadmin','imtheadmin');
               $m = new ViewMembers();
               $m->showAllMembers();
             ?>
@@ -52,18 +54,19 @@
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="modal-label">Modal title</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <h5 class="modal-title" id="modal-label"></h5>
+              <button type="button" class="close close-buttons" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div class="modal-body" id="modal-body">
-              <label for="studentNumberInput">Please enter your student number:</label>
-              <input type="number" class="form-control" id="studentNumberInput" placeholder="2000xxxxxx">
+                <label for="studentNumberInput">Please enter your student number:</label>
+                <input type="number" class="form-control" id="studentNumberInput" placeholder="2000xxxxxx">
             </div>
+            
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary" data-dismiss="modal" id="modal-ok">Save changes</button>
+              <button type="button" class="btn btn-secondary close-buttons" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary" data-dismiss="modal" id="modal-ok">Ok</button>
             </div>
           </div>
         </div>
