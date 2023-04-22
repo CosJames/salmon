@@ -1,0 +1,1 @@
+This repository contains code and files from a project I worked on during my junior high school days. It serves as a historical snapshot of my early foray into programming and web development, representing my skills and knowledge at that time. While it may not reflect my current coding standards or skills, it serves as a reminder of my early experiences and growth as a developer.
